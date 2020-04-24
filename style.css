@@ -1,0 +1,25 @@
+/* =========================================
+    Colors:
+        Moon Yellow     #f4c623
+        Grey            #212226
+        White Smoke     #f4f4f4
+        White           #fff
+        Black           #000
+        Orange          #f7be1e
+    
+    Fonts = Raleway, Open Sans
+=========================================== */
+
+/* ========================================
+                Default Setup
+===========================================*/
+
+* {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+}
+p {
+    font-family: "Open Sans", sans-serif;
+}
