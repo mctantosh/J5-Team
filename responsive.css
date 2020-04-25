@@ -1,0 +1,17 @@
+/* CSS Document */
+
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .header-menu {
+    display: none;
+  }
+  
+  .header-icon {
+    display: block;
+  }
+}

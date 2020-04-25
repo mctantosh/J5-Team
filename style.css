@@ -9,7 +9,7 @@
     
     Fonts = Raleway, Open Sans
 =========================================== */
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&display=swap');
 /* ========================================
                 Default Setup
 ===========================================*/
@@ -23,3 +23,165 @@ h1, h2, h3, h4, h5, h6 {
 p {
     font-family: "Open Sans", sans-serif;
 }
+
+/*==========
+nAV & Header
+==========*/
+body {
+    margin: 0 0;
+    }
+    
+    div {
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid #000; */
+     }
+     h1 {
+    font-size: 32px;
+    color:#FFFFFF; 
+     }
+    a {
+    text-decoration: none;
+    font-weight: bold;
+    }
+    
+    .header {
+    float: left;
+    background-color: #f5f5f5;
+    width: 100%;
+    box-shadow: 0px 10px #c0c0c0;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    }
+    
+    .header-wrapper {
+    margin: 0 auto;
+    padding: 0px 15px;
+    max-width: 1000px;
+    }
+    
+    .header-logo {
+    margin: auto 0px;
+    float: left;
+    
+    }
+    
+    .logo {
+    height:50px;
+    margin: 5px 0px;
+    }
+    
+    .header-menu{
+    margin: auto;
+    float: right;
+    }
+    
+    .fa {
+      margin-right: 5px;
+    }
+    
+    .header-menu a{
+      line-height: 44px;
+      padding: 10px 25px;
+      color: black;
+      display: block;
+      float: left;
+      transition: all 0.5s;
+    }
+    
+    .header-menu a:hover {
+      background-color: rgba(255, 195, 0, 0.9);
+      font-weight: bold;
+      color:#000;
+      box-shadow: 0px 10px #785002;
+    }
+    .header-icon {
+    display: none;
+    }
+    
+    .menu-icon {
+      color: black;
+      float: right;
+      font-size: 25px;
+      padding: 21px 21px;
+      display:none;
+    }
+    
+    .main-content {
+    height: 600px;
+     background-image:url(https://cdn.discordapp.com/attachments/701699653804228631/703192966445006898/BG3.png);
+     background-size: cover;
+     
+    }
+    
+    .main-wrapper {
+    margin: 70px auto;
+     padding: 10% 50px;
+     max-width: 1000px;
+    }
+    
+    .main-wrapper h1{
+    letter-spacing: 3px;
+    display: inline;
+    }
+    
+    .main-wrapper h2{
+    border-bottom: 3px solid #FFCC00;
+    color: #FFFF00;
+    display: inline;
+    }
+    
+    .desc-project {
+    font-size: 16px;
+    color:#CCCCCC;
+    }
+    
+    .extra-1 {
+    height: 800px;
+    }
+
+/*==========
+Extras 2
+==========*/
+
+    .extra-2 {
+        padding-top: 10px;
+      }
+      .extra-2 p {
+        font-size: 16px;
+        margin:auto;
+      }
+      .section-title {
+        font-size:26px;
+        padding-top: 10px;
+        border-top:5px solid orange;
+      }
+      
+      input, textarea {
+        width:200px;
+        margin-top:10px;
+        margin-bottom:10px;
+        padding:10px;
+        font-size:13px;
+        border:1px solid #dee7ec;
+        border-radius:10px;
+      }
+      
+      .btn {
+        padding: 12px 24px;
+        color: white;
+        display: inline-block;
+        opacity: 0.6;
+        border-radius: 10px;
+      }
+      
+      .btn:hover {
+        opacity: 1;
+      }
+      
+      .send {
+        background-color: #FC6600;
+        margin-right: 10px;
+        margin-top: 20px;
+      }
